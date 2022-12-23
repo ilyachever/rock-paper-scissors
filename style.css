@@ -96,7 +96,7 @@ img {
   text-align: center;
 }
 
-.prewview__button {
+.preview__button {
   align-self: center;
   width: 140px;
   height: 75px;
@@ -118,7 +118,7 @@ img {
   box-shadow: 0 0 0 0;
 }
 
-.prewview__button:focus-visible {
+.preview__button:focus-visible {
   outline: 1px dashed var(--linen);
   outline-offset: 3px;
 }
