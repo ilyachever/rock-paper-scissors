@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="pre" href="">
+  <title>Rock, Paper & Scissors</title>
+</head>
+<body class="general">
+
+  <main class="main">
+
+    <h1 class="visually-hidden">The game Rock, Paper and Scissors</h1>
+
+    <!-- Preview -->
+    <div class="preview fade-in">
+      <div class="preview__layout">
+        <p class="preview__info">
+        </p>
+        <button class="prewview__button" type="button">Got it!</button>
+      </div>
+    </div>
+
+    <!-- The Game -->
+    <section class="game fade-out hidden">
+      <div class="game__layout">
+        <!-- Human interface -->
+        <figure class="game__side human">
+          <img class="human__hand" src="./images/hPreview.png" alt="Human hand. It is yours." width="480" height="330">
+          <figcaption>
+            <h2 class="human__title">Human : 0</h2>
+          </figcaption>
+        </figure>
+
+        <!-- Alien interface -->
+        <figure class="game__side alien">
+          <img class="alien__hand" src="./images/aPreview.png" alt="Alien hand. It is not yours." width="500" height="350">
+          <figcaption>
+            <h2 class="alien__title">Alien : 0</h2>
+          </figcaption>
+        </figure>
+
+        <!-- Controls -->
+        <h2 class="visually-hidden">Controls list.</h2>
+        <ul class="game__controls controls">
+          <li>
+            <button class="controls__button controls__button--rock" type="button">Rock</button>
+          </li>
+          <li>
+            <button class="controls__button controls__button--paper" type="button">Paper</button>
+          </li>
+          <li>
+            <button class="controls__button controls__button--scissors" type="button">Scissors</button>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+</html>
