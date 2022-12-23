@@ -1,4 +1,4 @@
-# [Камень, ножницы, бумага](https://ilyachever.github.io/rock-paper-scissors/, 'project page')
+# [Камень, ножницы, бумага](https://ilyachever.github.io/rock-paper-scissors/ 'project page')
 
 ![](https://i.ibb.co/rc7x9Rc/rps.png, 'project')
 
