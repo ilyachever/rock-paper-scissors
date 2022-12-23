@@ -113,7 +113,7 @@ img {
   transition: all ease-out 0.2s;
 }
 
-.prewview__button:active {
+.preview__button:active {
   bottom: 20px;
   box-shadow: 0 0 0 0;
 }
