@@ -1,6 +1,6 @@
 // HTML Elements
 
-const playButton = document.querySelector('.prewview__button');
+const playButton = document.querySelector('.preview__button');
 const preview = document.querySelector('.preview');
 const game = document.querySelector('.game');
 const controls = document.querySelector('.controls');
